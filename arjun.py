@@ -130,7 +130,7 @@ if __name__ == "__main__":
 
         elif "sketch design" in query:
             speak("ok i am draw the sketch  design sir")
-            os_dir = "D:\\Majar project folder\\radhakrishna code"
+            os_dir = "D:\\Majar project folder\\TASLLEM SIR PROJECT _voice_asistance\\radhakrishna code"
             design = os.listdir(os_dir)
             print(design)
             os.startfile(os.path.join(os_dir, design[0]))
